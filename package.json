@@ -1,0 +1,25 @@
+{
+  "name": "apigateway-crud-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/darksoulx7/apigateway-crud-repo.git",
+  "keywords": [],
+  "author": "harshank.patel <harshank.patel@volansys.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darksoulx7/apigateway-crud-repo/issues"
+  },
+  "homepage": "https://github.com/darksoulx7/apigateway-crud-repo#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.18.0",
+    "@aws-sdk/util-dynamodb": "^3.18.0",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "serverless-iam-roles-per-function": "^3.2.0"
+  }
+}
